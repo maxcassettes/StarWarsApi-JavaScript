@@ -1,0 +1,55 @@
+.btn {
+        background-color: black;
+        border:none;
+        font:16px;
+        color:yellow;
+    }
+    
+    header {
+        background-color: black;
+    }
+    nav {
+        background:black;
+        font-family: 'Bungee Inline', cursive;
+    }
+
+    nav .btn {
+         font-size: 30px;
+    }
+    .container-fluid {
+        width:100%;
+    }
+
+    body {
+        width:100%;
+        background-color: black;
+    }
+
+    .item {
+        padding:10px 5px;
+        font:14px;
+    }
+
+    .item a {
+           font-family: 'Bungee Inline', cursive;
+           color:yellow;
+    }
+
+    #display {
+        background:black;
+    }
+
+    hr {
+    height: 2px;
+    background-color:yellow;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+button:focus,
+button:active { 
+    -moz-outline-style: none;
+    outline:none;
+    outline: 0;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Star Wars</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Luckiest+Guy" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='style.css'>   
+
+</head>
+<body>
+
+    <div class="container-fluid text-center">
+    <header>
+        <img src="star-wars.png" alt="star wars logo">
+    </header>
+    <nav>
+    
+        <div class="row">
+            <div class="col-lg-2">
+                <button class='btn' id='films' onclick="navChoice(this.id);">
+                 Films
+             </button>
+         </div>
+               <div class="col-lg-2">
+                <button class='btn' id='people' onclick="navChoice(this.id);">
+                 People
+             </button>
+         </div>
+                <div class="col-lg-2">
+                <button class='btn' id='planets' onclick="navChoice(this.id);">
+                 Planets
+             </button>
+         </div>
+                <div class="col-lg-2">
+                <button class='btn' id='species' onclick="navChoice(this.id);">
+                 Species
+             </button>
+         </div>
+               <div class="col-lg-2">
+                <button class='btn' id='starships' onclick="navChoice(this.id);">
+                 Starships
+             </button>
+         </div>
+            <div class="col-lg-2">
+                <button class='btn' id='vehicles' onclick="navChoice(this.id);">
+                 Vehicles
+             </button>
+         </div>
+     </div>
+     </nav>
+<hr>
+
+        <div class="row text-center" id='display'>
+            
+        </div>
+ 
+
+
+ </div>
+ <script src="script.js"></script>
+</body>
+
+</html>
